@@ -14,14 +14,14 @@ import nltk
 
 
 
-data = pd.read_csv(r"C:\Users\Hp\financial_sentiment_data.csv")
+# data = pd.read_csv(r"C:\Users\Hp\financial_sentiment_data.csv")
 
 st.title('Model Deployment: Sentiment Analysis')
 
-#image 
-from PIL import Image
-image = Image.open(r"C:\Users\Hp/image1.PNG")
-st.image(image, caption="Your Image Caption", use_column_width=True)
+# #image 
+# from PIL import Image
+# image = Image.open(r"C:\Users\Hp/image1.PNG")
+# st.image(image, caption="Your Image Caption", use_column_width=True)
 
 
 def input_features():
