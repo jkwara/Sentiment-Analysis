@@ -14,7 +14,7 @@ import nltk
 
 
 
-# data = pd.read_csv(r"C:\Users\Hp\financial_sentiment_data.csv")
+data = pd.read_csv("financial_sentiment_data.csv")
 
 st.title('Model Deployment: Sentiment Analysis')
 
